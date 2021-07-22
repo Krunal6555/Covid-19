@@ -1,0 +1,46 @@
+.header{
+    justify-content: center;
+    background-color: aqua;
+    text-align: center;
+    color:cadetblue;
+}
+
+.header:hover{
+    color:cornflowerblue;
+    cursor: pointer;
+}
+
+.row{
+    margin-left: 50px ;
+    width: 50%;    
+    justify-content: center;
+}
+
+.image{
+    /* filter: blur(); */
+    opacity: 0.6;
+}
+
+body{
+    background-color: beige;
+    background-image: url('./Images/pexels-anna-shvets-4167544.jpg');
+}
+/* style={{
+    fontSize: '15px',
+    marginLeft: '4px' */
+
+.span{
+    font-size: 15px;
+    margin-left: 4px;    
+}
+.span1{
+    /* position: relative; */
+    font-size: 15px;
+    margin-left: 4px;    
+}
+/* 
+@media screen and (max-width: 1000px){
+    .margin {
+        margin-top: 20px
+    }
+} */
